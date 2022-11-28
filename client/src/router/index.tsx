@@ -7,7 +7,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <TeslaNews
-        api={`https://newsapi.org/v2/everything?q=tesla&from=2022-10-28&sortBy=publishedAt&apiKey=${env.API_KEY}`}
+        api={`https://newsapi.org/v2/everything?q=tesla&from=2022-10-28&sortBy=publishedAt&apiKey=${env.REACT_APP_API_KEY}`}
       />
     ),
   },
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     element: (
       <TeslaNews
         api={`
-        https://newsapi.org/v2/everything?q=apple&from=2022-11-26&to=2022-11-26&sortBy=popularity&apiKey=${env.API_KEY}`}
+        https://newsapi.org/v2/everything?q=apple&from=2022-11-26&to=2022-11-26&sortBy=popularity&apiKey=${env.REACT_APP_API_KEY}`}
       />
     ),
   },
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: (
       <TeslaNews
         api={`
-        https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${env.API_KEY}`}
+        https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${env.REACT_APP_API_KEY}`}
       />
     ),
   },
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     element: (
       <TeslaNews
         api={`
-        https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${env.API_KEY}`}
+        https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${env.REACT_APP_API_KEY}`}
       />
     ),
   },
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
     element: (
       <TeslaNews
         api={`
-        https://newsapi.org/v2/everything?domains=wsj.com&apiKey=${env.API_KEY}`}
+        https://newsapi.org/v2/everything?domains=wsj.com&apiKey=${env.REACT_APP_API_KEY}`}
       />
     ),
   },

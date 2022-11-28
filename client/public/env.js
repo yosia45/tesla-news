@@ -1,7 +1,6 @@
 window.env = {
   "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
   "ALLUSERSPROFILE": "C:\\ProgramData",
-  "API_KEY": "9434150088cc41708d3b5f3dba4437e9",
   "APPDATA": "C:\\Users\\Acer\\AppData\\Roaming",
   "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_5164_EZYWTKZDRJBAKILZ",
   "COLOR": "1",
@@ -79,6 +78,7 @@ window.env = {
   "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
   "PUBLIC": "C:\\Users\\Public",
   "PWD": "C:/Users/Acer/Documents/hacktiv8-batch25/Mini-Project/Eigen Project/client",
+  "REACT_APP_API_KEY": "9434150088cc41708d3b5f3dba4437e9",
   "SESSIONNAME": "Console",
   "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
   "SHLVL": "2",
